@@ -1,0 +1,38 @@
+{
+	"name": "is-jxa",
+	"version": "0.0.0",
+	"description": "Check if your code is running in a JXA environment",
+	"license": "MIT",
+	"repository": "sindresorhus/is-jxa",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"jxa",
+		"macos",
+		"is",
+		"detect",
+		"check",
+		"process",
+		"environment",
+		"automation",
+		"mac",
+		"osascript"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.8.0",
+		"xo": "*"
+	}
+}
