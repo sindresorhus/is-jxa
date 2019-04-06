@@ -8,9 +8,10 @@ const isJxa = () => {
 			typeof Application.currentApplication === 'function' &&
 			typeof ObjC === 'object' &&
 			typeof ObjC.import === 'function';
-	} catch (err) {
+	} catch (error) {
 		return false;
 	}
 };
 
+/* eslint-enable no-undef */
 module.exports = isJxa();
