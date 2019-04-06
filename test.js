@@ -1,10 +1,10 @@
 import fs from 'fs';
 import test from 'ava';
 import execa from 'execa';
-import m from '.';
+import isJxa from '.';
 
 test('returns false on Node.js', t => {
-	t.false(m);
+	t.false(isJxa);
 });
 
 test('return true on JXA', async t => {
