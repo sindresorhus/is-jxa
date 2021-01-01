@@ -1,4 +1,4 @@
-# is-jxa [![Build Status](https://travis-ci.org/sindresorhus/is-jxa.svg?branch=master)](https://travis-ci.org/sindresorhus/is-jxa)
+# is-jxa
 
 > Check if your code is running in a [JXA](https://github.com/JXA-Cookbook/JXA-Cookbook) environment
 
