@@ -3,7 +3,7 @@ Check if your code is running in a [JXA](https://github.com/JXA-Cookbook/JXA-Coo
 
 @example
 ```
-import isJxa = require('is-jxa');
+import isJxa from 'is-jxa';
 
 if (isJxa) {
 	// For example, polyfill something here when it's in a JXA environment
@@ -12,4 +12,4 @@ if (isJxa) {
 */
 declare const isJxa: boolean;
 
-export = isJxa;
+export default isJxa;

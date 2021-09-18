@@ -4,13 +4,16 @@
 	"description": "Check if your code is running in a JXA environment",
 	"license": "MIT",
 	"repository": "sindresorhus/is-jxa",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
 	"engines": {
-		"node": ">=8"
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
@@ -32,9 +35,9 @@
 		"osascript"
 	],
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"execa": "^1.0.0",
-		"tsd": "^0.7.2",
-		"xo": "^0.24.0"
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"tsd": "^0.17.0",
+		"xo": "^0.44.0"
 	}
 }

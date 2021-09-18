@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import isJxa = require('.');
+import isJxa from './index.js';
 
 expectType<boolean>(isJxa);
